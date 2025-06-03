@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Select Task</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .task-container {
+      display: flex;
+      flex-direction: column; 
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .task {
+      background: white;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      text-decoration: none;
+      color: #333;
+      font-size: 18px;
+      font-weight: bold;
+      transition: transform 0.2s, background-color 0.3s;
+    }
+
+    .task:hover {
+      background-color: #e6f0ff;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Select a Task</h1>
+
+  <div class="task-container">
+    <a href="task1.html" class="task">Task 1: Checking Number(postive/negative)</a>
+    <a href="task2.html" class="task">Task 2: Checking Grades</a>
+    <a href="task3.html" class="task">Task 3</a>
+  </div>
+
+</body>
+</html>
